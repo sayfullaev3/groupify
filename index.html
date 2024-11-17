@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupify</title>
+    <link rel="stylesheet" href="./groupify/Style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Spray+Paint&family=Rubik+Wet+Paint&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Введите имя и возраст</h1>
+        <div class="form">
+            <input type="text" id="nameInput" placeholder="Имя">
+            <input type="number" id="ageInput" placeholder="Возраст">
+            <button id="addButton">Добавить</button>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <img src="./groupify/Public/icon/under25.png" alt="">
+                <h2>Люди до 25</h2>
+                <div id="under25" class="list"></div>
+            </div>
+            <div class="column">
+                <img src="./groupify/Public/icon/under50.png" alt="">
+                <h2>Люди до 50</h2>
+                <div id="under50" class="list"></div>
+            </div>
+            <div class="column">
+                <img src="./groupify/Public/icon/60+.png" alt="">
+                <h2>Остальные 60+</h2>
+                <div id="others" class="list"></div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

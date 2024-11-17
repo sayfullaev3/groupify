@@ -1,0 +1,107 @@
+* {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+body {
+
+    background-color: rgb(140, 114, 237);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.form {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input,
+button {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.column {
+    background-color: rgb(242, 241, 254);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.column img {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(242, 241, 254);
+}
+
+.container h1 {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #E4E80D;
+    background-color: rgb(140, 114, 237);
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card {
+    margin-top: 20px;
+    background-color: rgb(231, 225, 216);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card span {
+    border-radius: 5px;
+    background-color: rgb(231, 225, 216);
+    font-size: 16px;
+}
